@@ -5,7 +5,7 @@ const items = [
     title: 'AI Semantic Search Engine',
     tag: 'Search & Index',
     desc: 'Parse and index unstructured databases at scale using advanced vector search. Retrieve context in sub-milliseconds with flawless recall.',
-    icon: '/assets/search.svg',
+    icon: '/FB_Companion/assets/search.svg',
     color: 'border-saffron/20 bg-saffron/5 hover:border-saffron/40',
     dotColor: 'bg-saffron',
     accentColor: 'text-saffron'
@@ -14,7 +14,7 @@ const items = [
     title: 'Pipeline Diagnostics & Analytics',
     tag: 'Analytics',
     desc: 'Monitor throughput, diagnose pipeline bottlenecks, and visualize latency profiles in real-time with zero overhead.',
-    icon: '/assets/arrow-trending-up.svg',
+    icon: '/FB_Companion/assets/arrow-trending-up.svg',
     color: 'border-forsythia/20 bg-forsythia/5 hover:border-forsythia/40',
     dotColor: 'bg-forsythia',
     accentColor: 'text-forsythia'
@@ -23,7 +23,7 @@ const items = [
     title: 'Self-Healing Automation Nodes',
     tag: 'Auto-Recovery',
     desc: 'Intelligent nodes automatically recover workflows, roll back corrupt states, and rerun failing operations without human intervention.',
-    icon: '/assets/context.svg',
+    icon: '/FB_Companion/assets/context.svg',
     color: 'border-mystic/20 bg-mystic/5 hover:border-mystic/40',
     dotColor: 'bg-mystic',
     accentColor: 'text-mystic'
@@ -32,7 +32,7 @@ const items = [
     title: 'Multi-Source Context Sync',
     tag: 'Database Linker',
     desc: 'Seamlessly orchestrate data syncing between dozens of external databases, storage APIs, and local buffers concurrently.',
-    icon: '/assets/sync.svg',
+    icon: '/FB_Companion/assets/sync.svg',
     color: 'border-arctic/20 bg-arctic/5 hover:border-arctic/40',
     dotColor: 'bg-arctic',
     accentColor: 'text-arctic'
@@ -132,7 +132,7 @@ export default function BentoAccordion() {
                     <span>{item.title}</span>
                   </div>
                   <img
-                    src="/assets/arrow-path.svg"
+                    src="/FB_Companion/assets/arrow-path.svg"
                     className={`w-5 h-5 opacity-60 transition-transform duration-reflow-fast ease-in-out ${
                       isOpen ? 'rotate-180 text-forsythia' : ''
                     }`}

@@ -18,7 +18,7 @@ export default function App() {
           {/* Logo */}
           <a href="#" className="flex items-center gap-3 group focus:outline-none">
             <img
-              src="/export-cropped.svg"
+              src="/FB_Companion/export-cropped.svg"
               className="w-8 h-8 object-contain transition-all duration-hover-fast group-hover:scale-105"
               alt="Companion logo icon"
             />
@@ -253,7 +253,7 @@ export default function App() {
           <div className="flex flex-col items-center md:items-start gap-3">
             <div className="flex items-center gap-3">
               <img
-                src="/export-cropped.svg"
+                src="/FB_Companion/export-cropped.svg"
                 className="w-6 h-6 object-contain"
                 alt="Companion logo icon"
               />
